@@ -19,7 +19,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# nn.Module'den miras alınır (inherits) init fonksiyonunun nn.Module' class'indan calistirilmasi icin 'super' kullanilir.
+# nn.Module'den miras alınır (inherits) init fonksiyonunun nn.Module' class'indan calistirilmasi icin 'super'
+# kullanilir.
 class Net(nn.Module):
     def __init__(self):
         super().__init__()
